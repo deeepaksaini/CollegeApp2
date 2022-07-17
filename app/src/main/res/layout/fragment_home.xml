@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:background="@color/cardview_dark_background"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/grey2"
+                android:text="GEHU DEHRADUN"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold"/>
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_margin="10dp"
+                 android:src="@drawable/gehulogo"
+                 />
+
+            <TextView
+                android:layout_width="364dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:gravity="center"
+                android:text="@string/abouttclg"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/grey2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="36dp"
+                android:background="@color/cardview_dark_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@string/bold"
+                    android:text="Departments"
+                    android:background="@color/cardview_dark_background"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/title_size" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="Computer Science And Engineering"
+                        android:textColor="@color/textColor"
+                        android:layout_margin="8dp"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="Information Technology"
+                        android:textColor="@color/textColor"
+                        android:layout_margin="8dp"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="Mechanical Engineering"
+                        android:textColor="@color/textColor"
+                        android:layout_margin="8dp"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="   Electronics And Communication  Engineering"
+                        android:textColor="@color/textColor"
+                        android:layout_margin="8dp"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:background="@color/grey2"
+                    android:text="Contact Details"
+                    android:layout_marginTop="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:text="Graphic Era Hill University"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"/>
+
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:text="Bell Road,Clement Town Dehradun Uttrakhand"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size"
+                     android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:text="contact us- 01352645565, 01352645996"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:text="admissions@gehu.ac.in, enquiry@gehu.ac.in"
+                    android:textColor="@color/textColor"
+                    android:paddingBottom="30dp"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="184dp"
+                    android:background="@color/cardview_dark_background"
+                    android:padding="10dp"
+                    android:src="@drawable/mapimage" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">College App2</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+            <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>light</item>
+
+    </string-array>
+    <string name="title_activity_pdf_viewer">PdfViewerActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="abouttclg">Graphic Era Hill University is a private university located in Dehradun, Uttrakhand. It was set up under the foundation of the Graphic Era Education Society (GEES) in 1996 as a non profit organization. The university has got recognition from University Grants Commission (UGC) and is a member of Association of Indian Universities (AIU). It has also been accredited by NAAC.Graphic Era Hill university, Dehradun offers different undergraduate, post graduate and diploma courses in computer applications, management, humanities, commerce and law etc</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "673355186092",
+    "firebase_url": "https://gehu-cse654-default-rtdb.firebaseio.com",
+    "project_id": "gehu-cse654",
+    "storage_bucket": "gehu-cse654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673355186092:android:b618b56959bd558918c409",
+        "android_client_info": {
+          "package_name": "com.example.adminappcse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673355186092-2s5bdsdn0ka092o9gal9nfjokorogrb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnx1n7Bhb1w3ZGiudOijjR-1e5IgZBQl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673355186092-2s5bdsdn0ka092o9gal9nfjokorogrb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673355186092:android:fa9d103b18d1637718c409",
+        "android_client_info": {
+          "package_name": "com.example.collegeapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673355186092-2s5bdsdn0ka092o9gal9nfjokorogrb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnx1n7Bhb1w3ZGiudOijjR-1e5IgZBQl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673355186092-2s5bdsdn0ka092o9gal9nfjokorogrb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

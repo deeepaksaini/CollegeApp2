@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/College_image"
+            android:src="@drawable/gehu" />
+        <TextView
+            android:layout_width="466dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:background="@color/grey2"
+            android:fontFamily="@string/bold"
+            android:text="GRAPHIC ERA HILL UNIVERSITY "
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/title_size" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="299dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@string/light"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/abouttclg"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:layout_width="466dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:background="@color/grey2"
+                android:fontFamily="@string/bold"
+                android:text="Contact Details"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:text="GRAPHIC ERA HILL UNIVERSITY(GEHU)"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:text="Bell Road,Clement Town Dehradun Uttrakhand"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:text="contact us- 01352645565, 01352645996"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:text="admissions@gehu.ac.in, enquiry@gehu.ac.in"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Green Environment"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@color/grey2"
+            android:text="Branch"
+            android:layout_marginTop="36dp"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/bold"/>
+
+     <androidx.viewpager.widget.ViewPager
+         android:layout_width="match_parent"
+         android:layout_height="250dp"
+         android:layout_marginTop="@dimen/text_margin"
+         android:foregroundGravity="center"
+         android:clipToPadding="false"
+         android:background="@color/grey2"
+         android:overScrollMode="never"
+         android:id="@+id/viewPager"/>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
